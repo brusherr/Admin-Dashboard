@@ -173,10 +173,10 @@ a {
 .content {
     display: grid;
     grid-template-columns: 4fr 1fr;
-    padding: 10px 20px;
+    padding: 10 20px;
 }
 h4 {
-    padding: 20px;
+    padding: 20px 20px;
     font-size: 1.5rem;
     font-weight: 700;
 }
@@ -189,16 +189,23 @@ h5 {
 .left-content {
     display: grid;
     grid-template-columns: repeat(2, 400px);
-    grid-template-rows: repeat(3, 200px);
-    gap: 5px;
+    grid-template-rows: repeat(3, 170px);
+    gap: 40px;
+    padding: 0 20px;
 }
 
 .card {
     background-color: #ffffff;
-    width: 360px;
+    width: 400px;
     height: 180px;
     border-left: 7px solid rgb(252, 177, 36);
     border-radius: 8px;
     padding: 20px;
     box-shadow: 3px 5px 8px -6px;
+}
+.icons {
+    display: grid;
+    grid-template-columns: repeat(3, 30px);
+    justify-content: end;
+    padding-top: 20px;
 }
